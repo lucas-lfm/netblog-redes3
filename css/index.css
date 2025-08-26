@@ -11,20 +11,20 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 24px;
     font-family: "Poppins", "Roboto", sans-serif;
     background-color: #F7FFFE55;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.10);
 }
 
 .logo img {
-    height: 48px;
+    height: 32px;
 }
 
 .top-nav {
     display: flex;
     gap: 24px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     align-items: center;
 }
 
@@ -36,21 +36,20 @@ header {
 .btn {
     color: #F7FFFE !important;
     background-color: #02735E;
-    padding: 12px 16px;
+    padding: 8px 16px;
     border-radius: 4px;
 }
 
 .logo {
     display: flex;
-    gap: 16px;
+    gap: 8px;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 section {
     width: 100vw;
-    border: 1px solid red;
 }
 
 .container-center {
@@ -58,4 +57,5 @@ section {
     max-width: 1024px;
     width: 1024px;
     display: flex;
+    border: 1px solid red;
 }
