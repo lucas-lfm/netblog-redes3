@@ -59,8 +59,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 32px;
-
-    border: 1px solid red;
+    flex-wrap: wrap;
 }
 
 .info-hero {
@@ -70,21 +69,29 @@ section {
     width: 45%;
     min-width: 300px;
 
-    border: 1px solid blue;
 }
 
 .info-hero .btn {
     text-decoration: none;
     width: 250px;
+    padding: 16px 24px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .img-hero {
     width: 45%;
     min-width: 300px;
-
-    border: 1px solid blue;
 }
 
 .img-hero img {
     width: 100%;
+}
+
+.info-hero h1 {
+    font-size: 2rem;
+}
+
+.info-hero p {
+    color: #757575;
 }
