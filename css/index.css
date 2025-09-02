@@ -54,8 +54,37 @@ section {
 
 .container-center {
     margin: 0 auto;
-    max-width: 1024px;
-    width: 1024px;
+    max-width: 1200px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
     border: 1px solid red;
+}
+
+.info-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 45%;
+    min-width: 300px;
+
+    border: 1px solid blue;
+}
+
+.info-hero .btn {
+    text-decoration: none;
+    width: 250px;
+}
+
+.img-hero {
+    width: 45%;
+    min-width: 300px;
+
+    border: 1px solid blue;
+}
+
+.img-hero img {
+    width: 100%;
 }
